@@ -1,0 +1,27 @@
+div {
+	font-size:25px;
+}
+
+.bigtext {
+	font-size:30px;
+}
+
+#yellow{
+	color:yellow;
+}
+
+#green {
+	color:green;
+}
+
+#blue, #blue a{
+	color:blue;	
+}
+
+#blue, #blue a:hover{
+	color:purple;	
+}
+
+#red {
+	color:red;
+}
