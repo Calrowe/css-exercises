@@ -6,22 +6,58 @@ div {
 	font-size:30px;
 }
 
-#yellow{
+#yellow, #yellow a{
 	color:yellow;
 }
 
-#green {
+#yellow:hover, #yellow a:hover{
+	color:gold;
+}
+
+#green, #green a{
 	color:green;
 }
 
+#green:hover, #green a:hover{
+	color:gold;
+}
+
 #blue, #blue a{
-	color:blue;	
+	color:blue;		
 }
 
-#blue, #blue a:hover{
-	color:purple;	
+#blue:hover, #blue a:hover{
+	color:gold;	
 }
 
-#red {
-	color:red;
+#red, #red a{
+	color:red;	
+}
+
+#red:hover, #red a:hover{
+	color:gold;	
+}
+
+a {
+	text-decoration:none;
+}
+
+h1 {
+	background-color:gray;
+}
+
+section p{
+	background-color:red;
+}
+
+div > p {
+	background-color:green;
+}
+
+div ~ p{
+	background-color:yellow;
+}
+
+div + p{
+	background-color:pink;
 }
